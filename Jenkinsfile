@@ -1,5 +1,5 @@
 pipeline {
-    agent { label '120.48.101.85'}
+    agent any
     stages {
         stage('更新开始') {
             steps {
